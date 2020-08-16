@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Akash",
+      "city": "Pune",
+      "country": "India",
+      "email": "akash@gmail.com",
+      "designation": "webDeveloper",
+      "questions": [
+        {
+          "questionId": 1,
+          "question": "TestQuestion",
+          "authorId": 1
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Manik",
+      "city": "Kolhapur",
+      "country": "India",
+      "email": "manik@gmail.com",
+      "designation": "webDeveloper-1",
+      "questions": [
+        {
+          "questionId": 2,
+          "question": "TestQuestion-2",
+          "authorId": 2
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 1
+        },
+        {
+          "answerId": 2,
+          "answer": "TestAnswer-2",
+          "authorId": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rahul",
+      "city": "Delhi",
+      "country": "India",
+      "email": "rahul@gmail.com",
+      "designation": "webDeveloper-2",
+      "questions": [
+        {
+          "questionId": 3,
+          "question": "TestQuestion-3",
+          "authorId": 3
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 1
+        },
+        {
+          "answerId": 2,
+          "answer": "TestAnswer-2",
+          "authorId": 2
+        },
+        {
+          "answerId": 3,
+          "answer": "TestAnswer-2",
+          "authorId": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Obaid",
+      "city": "Lucknow",
+      "country": "India",
+      "email": "obaid@gmail.com",
+      "designation": "webDeveloper-3",
+      "questions": [
+        {
+          "questionId": 4,
+          "question": "TestQuestion-4",
+          "authorId": 4
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 3
+        },
+        {
+          "answerId": 2,
+          "answer": "TestAnswer-2",
+          "authorId": 2
+        },
+        {
+          "answerId": 3,
+          "answer": "TestAnswer-3",
+          "authorId": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Harshil",
+      "city": "Indore",
+      "country": "India",
+      "email": "harshil@gmail.com",
+      "designation": "webDeveloper-4",
+      "questions": [
+        {
+          "questionId": 5,
+          "question": "TestQuestion-5",
+          "authorId": 5
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 1
+        },
+        {
+          "answerId": 2,
+          "answer": "TestAnswer-2",
+          "authorId": 2
+        },
+        {
+          "answerId": 3,
+          "answer": "TestAnswer-3",
+          "authorId": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Guy 6",
+      "city": "Bangalore",
+      "country": "India",
+      "email": "guy6@gmail.com",
+      "designation": "webDeveloper-6",
+      "questions": [
+        {
+          "questionId": 6,
+          "question": "TestQuestion-6",
+          "authorId": 6
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 1
+        },
+        {
+          "answerId": 2,
+          "answer": "TestAnswer-2",
+          "authorId": 2
+        },
+        {
+          "answerId": 3,
+          "answer": "TestAnswer-3",
+          "authorId": 3
+        },
+        {
+          "answerId": 4,
+          "answer": "TestAnswer-4",
+          "authorId": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Test name",
+      "city": "test City",
+      "country": "India",
+      "email": "akash@gmail.com",
+      "designation": "webDeveloper",
+      "questions": [
+        {
+          "questionId": 1,
+          "question": "TestQuestion",
+          "authorId": 1
+        }
+      ],
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "TestAnswer",
+          "authorId": 2
+        }
+      ]
+    }
+  ]
+}

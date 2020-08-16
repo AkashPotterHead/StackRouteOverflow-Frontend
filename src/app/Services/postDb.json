@@ -1,0 +1,203 @@
+
+[
+    {
+    "status": true,
+    "message": "Post details fetched successfully!",
+    "data": {
+        "posts_count": 1,
+        "posts": [
+            {
+                "categories": [
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc4",
+                        "name": "Javascript"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc5",
+                        "name": "AWP"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc6",
+                        "name": "MERN Stack"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc9",
+                        "name": "Mongo DB"
+                    }
+                ],
+                "publishedOn": "2020-01-22T17:33:03.264Z",
+                "upvotes": 0,
+
+                "_id": "5e28874f5ae04b3f46164fd2",
+                "title": "How to Create and Use Enum in Mongoose",
+                "desc": "\n                <p>I am trying to create and use an enum type in Mongoose. I checked it out, but I'm not getting the proper result. I'm using enum in my mongoose schema as follows:</p>\n            \n            <code>var RequirementSchema = new mongoose.Schema({\n               status: {\n                    type: String,\n                    enum : ['NEW', 'STATUS'],\n                    default: 'NEW'\n                },\n            })</code>\n            <p>But I am little bit confused here, how can I put the value of an enum like in Java NEW(\"new\"). How can I save an enum in to the database according to it's enumerable values. I am using it in express node.js.</p>",
+                "courseTag": {
+                    "_id": "5e28874f5ae04b3f46164fb9",
+                    "name": "DAC"
+                },
+                "modifiedAt": "2020-01-22T17:33:03.787Z"
+            }
+        ]
+    }
+},
+{
+    "status": true,
+    "message": "Post details fetched successfully!",
+    "data": {
+        "posts_count": 2,
+        "posts": [
+            {
+                "categories": [
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc4",
+                        "name": "Javascript"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc5",
+                        "name": "AWP"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc6",
+                        "name": "MERN Stack"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc9",
+                        "name": "Mongo DB"
+                    }
+                ],
+                "publishedOn": "2020-02-22T17:33:03.264Z",
+                "upvotes": 1,
+
+                "_id": "5e28874f5ae04b3f46164fd3",
+                "title": "How to Create an array in java",
+                "desc": " <p> int intArray[] or type[] var-name; </p>",
+                "courseTag": {
+                    "_id": "5e28874f5ae04b3f46164fb9",
+                    "name": "DAC"
+                },
+                "modifiedAt": "2020-01-22T17:33:03.787Z"
+            }
+        ]
+    }
+},
+{
+    "status": true,
+    "message": "Post details fetched successfully!",
+    "data": {
+        "posts_count": 3,
+        "posts": [
+            {
+                "categories": [
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc4",
+                        "name": "Javascript"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc5",
+                        "name": "AWP"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc6",
+                        "name": "MERN Stack"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc9",
+                        "name": "Mongo DB"
+                    }
+                ],
+                "publishedOn": "2020-02-27T18:33:03.264Z",
+                "upvotes": 3,
+
+                "_id": "5e28874f5ae04b3f46164fd4",
+                "title": "How to install docker in windows",
+                "desc": " <p> Docker Desktop for Windows is the Community version of Docker for Microsoft Windows. You can download Docker Desktop for Windows from Docker Hub. </p>",
+                "courseTag": {
+                    "_id": "5e28874f5ae04b3f46164fb9",
+                    "name": "DAC"
+                },
+                "modifiedAt": "2020-02-27T17:33:03.787Z"
+            }
+        ]
+    }
+},
+{
+    "status": true,
+    "message": "Post details fetched successfully!",
+    "data": {
+        "posts_count": 4,
+        "posts": [
+            {
+                "categories": [
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc4",
+                        "name": "Javascript"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc5",
+                        "name": "AWP"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc6",
+                        "name": "MEAN Stack"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc9",
+                        "name": "Mongo DB"
+                    }
+                ],
+                "publishedOn": "2020-07-01T18:59:03.264Z",
+                "upvotes": 3,
+
+                "_id": "5e28874f5ae04b3f46164fd5",
+                "title": "use of graphql in express",
+                "desc": " <p> All this does is return “Hello, world” when you query “hello”, but it's a start. To take it for a test spin, run node . , then in another tab open your browser to the GraphQL Playground. Once there, enter http://localhost:4000/graphql to access your GraphQL server </p>",
+                "courseTag": {
+                    "_id": "5e28874f5ae04b3f46164fb9",
+                    "name": "DAC"
+                },
+                "modifiedAt": "2020-07-02T17:33:03.787Z"
+            }
+        ]
+    }
+},
+{
+    "status": true,
+    "message": "Post details fetched successfully!",
+    "data": {
+        "posts_count": 5,
+        "posts": [
+            {
+                "categories": [
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc4",
+                        "name": "Javascript"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc5",
+                        "name": "AWP"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc6",
+                        "name": "MEAN Stack"
+                    },
+                    {
+                        "_id": "5e28874f5ae04b3f46164fc9",
+                        "name": "Mongo DB"
+                    }
+                ],
+                "publishedOn": "2020-07-10T12:09:03.264Z",
+                "upvotes": 2,
+
+                "_id": "5e28874f5ae04b3f46164fd6",
+                "title": "How to implement microservices in node js ",
+                "desc": " <p>https://www.cuelogic.com/blog/microservices-with-node-js .these site give you a a proper implementation of the microservices with nodejs </p>",
+                "courseTag": {
+                    "_id": "5e28874f5ae04b3f46164fb9",
+                    "name": "DAC"
+                },
+                "modifiedAt": "2020-07-10T17:33:03.787Z"
+            }
+        ]
+    }
+}
+]
