@@ -7,7 +7,9 @@
 */
 
 export class Answer {
-  answerId: number;
-  answer: string;
-  authorId: number;
+	answerId: number;
+	answer: string;
+	authorId: number;
+	likes: number[];
+	likes_count: number;
 }

@@ -1,5 +1,4 @@
-/*
-@author : Manik Mudholkar
+/*@author : Manik Mudholkar
 @desc : Post class skeleton
 @created on: 15-8-2020
 @modified on: -
@@ -12,14 +11,13 @@ import { Tag } from './Tag';
 import { Answer } from './Answer';
 
 export class Post {
-  id: number;
-  question: Question;
-  Answers: [Answer];
-  authorId: number;
-  catagories: [Catagory];
-  tags: [Tag];
-  createdAt: Date;
-  modifiedAt: Date;
-  upvotes: number;
-  downvotes: number;
+	id: number;
+	question: Question;
+	answers: Answer[];
+	authorId: number;
+	catagories: Catagory[];
+	tags: Tag[];
+	createdAt: string;
+	modifiedAt: string;
+
 }

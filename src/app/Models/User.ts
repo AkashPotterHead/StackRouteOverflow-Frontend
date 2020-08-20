@@ -9,13 +9,13 @@
 import { Answer } from './Answer';
 import { Question } from './Question';
 
-export class User {
-  id: number;
-  name: string;
-  city: string;
-  country: string;
-  email: string;
-  designation: string;
-  questions: [Question];
-  answers: [Answer];
+export interface User {
+	id: number;
+	name: string;
+	city: string;
+	country: string;
+	email: string;
+	designation: string;
+	questions: Question[];
+	answers: Answer[];
 }

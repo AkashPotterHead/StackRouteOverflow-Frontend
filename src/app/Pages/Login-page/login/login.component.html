@@ -1,0 +1,26 @@
+
+  <body>
+    <div class="backdrop">
+      <nav class="navbar navbar-format">
+          <span>StackRoute-Overflow</span>
+        </nav>
+  <form class="wrapper" [formGroup]="loginForm" (ngSubmit)="signIn()">
+      <div class="title">
+        Sign In
+      </div>
+      <div class="form">
+         <div class="inputfield">
+            <label>Email ID:</label>
+            <input type="text" class="input" formControlName="useremail" placeholder="Enter Email">
+         </div>
+         <div class="inputfield">
+          <label>Password:</label>
+          <input type="text" class="input" formControlName="password" placeholder="Enter Password">
+       </div>
+       <div class="inputfield">
+          <input type="submit" value="Sign In" class="btn">
+        </div>
+      </div>
+  </form>	
+  </div>
+</body>

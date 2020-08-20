@@ -18,6 +18,13 @@ import { PostService } from './Services/PostService/post.service';
 //@desc: bringing in the http module service and add to imports array
 import { HttpClientModule } from '@angular/common/http';
 
+//@desc: bringing in the QuestionThreadTakerComponent andQuestionThreadViewerComponent
+import { QuestionThreadTakerComponent } from './Pages/QuestionThread-Page/question-thread-taker/question-thread-taker.component';
+import { QuestionThreadViewerComponent } from './Pages/QuestionThread-Page/question-thread-viewer/question-thread-viewer.component';
+import { LoginComponent } from './Pages/Login-page/login/login.component';
+import { SignupComponent } from './Pages/SignUp-Page/signup/signup.component';
+import { UserprofileComponent } from './Pages/UserProfile-page/userprofile/userprofile.component';
+
 //--------------------------------------------------------------------------------//
 
 /*
@@ -52,9 +59,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 //--------------------------------------------------------------------------------//
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule,ReactiveFormsModule],
-  providers: [UserService, PostService],
-  bootstrap: [AppComponent],
+	declarations: [ AppComponent, QuestionThreadTakerComponent, QuestionThreadViewerComponent, LoginComponent, SignupComponent, UserprofileComponent ],
+	imports: [ BrowserModule, AppRoutingModule, HttpClientModule,ReactiveFormsModule ],
+	providers: [ UserService, PostService ],
+	bootstrap: [ AppComponent ]
 })
 export class AppModule {}
